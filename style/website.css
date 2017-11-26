@@ -34,6 +34,7 @@ pre {
     background-color: rgba(230, 230, 230, 0.6) !important;
     touch-action: auto;
     -webkit-user-drag: auto;
+    direction: unset !important;
 }
 
 .page-inner {
@@ -700,8 +701,4 @@ p.comments-section:first-child + span.mjx-chtml {
 blockquote {
     color: #999 !important;
     border-left: 2px solid #a10000 !important;
-}
-
-.markdown-section blockquote, .markdown-section code, .markdown-section figure, .markdown-section img, .markdown-section pre, .markdown-section table, .markdown-section tr {
-    page-break-inside: auto !important;
 }
