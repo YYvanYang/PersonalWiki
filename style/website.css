@@ -33,6 +33,8 @@ pre {
     border-radius: 4px !important;
     background-color: rgba(230, 230, 230, 0.6) !important;
     touch-action: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .page-inner {
@@ -212,49 +214,46 @@ a.navigation,
     /** Part 7 */
 }
 
-/** code scroll bar */
-@media (min-width: 640px) {
-    pre::-webkit-scrollbar {
-        /** if you want to style your own scroll bar, this pseudo should be written */
-        /** Part 1 */
-        width: 6px;
-        height: 6px;
-    }
+pre::-webkit-scrollbar {
+    /** if you want to style your own scroll bar, this pseudo should be written */
+    /** Part 1 */
+    width: 6px;
+    height: 6px;
+}
 
-    pre::-webkit-scrollbar-button {
-        /** Part 2 */
-        display: none;
-    }
+pre::-webkit-scrollbar-button {
+    /** Part 2 */
+    display: none;
+}
 
-    pre::-webkit-scrollbar-track {
-        /** Part 3 */
-    }
+pre::-webkit-scrollbar-track {
+    /** Part 3 */
+}
 
-    pre::-webkit-scrollbar-track-piece {
-        /** Part 4 */
-    }
+pre::-webkit-scrollbar-track-piece {
+    /** Part 4 */
+}
 
-    pre::-webkit-scrollbar-thumb {
-        /** Part 5 */
-        background-color: rgba(0, 0, 0, 1);
-        border-radius: 10px;
-    }
+pre::-webkit-scrollbar-thumb {
+    /** Part 5 */
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
 
-    pre::-webkit-scrollbar-thumb:hover {
-        background-color: rgba(161, 0, 0, 1);
-    }
+pre::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(161, 0, 0, 1);
+}
 
-    pre::-webkit-scrollbar-thumb:active {
-        background-color: rgba(100, 0, 0, 1);
-    }
+pre::-webkit-scrollbar-thumb:active {
+    background-color: rgba(100, 0, 0, 1);
+}
 
-    pre::-webkit-scrollbar-corner {
-        /** Part 6 */
-    }
+pre::-webkit-scrollbar-corner {
+    /** Part 6 */
+}
 
-    pre::-webkit-resizer {
-        /** Part 7 */
-    }
+pre::-webkit-resizer {
+    /** Part 7 */
 }
 
 /** demo scroll bar */
